@@ -1,0 +1,355 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    padding-left: 72px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #373737;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 13px;
+}
+
+.header-hr {
+    width: 23px;
+    height: 3px;
+    background: #717cff;
+    border-radius: 2px;
+    border: none;
+}
+
+.header-btn {
+    border: 2px solid #717cff;
+    border-radius: 11px;
+    width: 111px;
+    height: 42px;
+    background-color: #fff;
+}
+
+.header-btn a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-heading {
+    color: #2f2f2f;
+    font-weight: 900;
+    font-size: 70px;
+    width: 632px;
+    margin-bottom: 15px;
+}
+
+.hero-build {
+    color: #717cff;
+}
+
+.hero-text {
+    color: #7d7d7d;
+    font-weight: 500;
+    font-size: 22px;
+    width: 632px;
+    margin-bottom: 42px;
+}
+
+.hero-btn {
+    width: 262px;
+    height: 64px;
+    background: #717CFF;
+    border-radius: 11px;
+    display: block;
+    border: none;
+    margin-bottom: 70px;
+
+}
+
+.hero-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 34px;
+}
+
+.hero-btn img {
+    color: #37474f;
+}
+
+.hero-social {
+    display: flex;
+}
+
+.social-list {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.universities {
+    background-color: #fafafa;
+    margin-bottom: 122px;
+}
+
+.univer-heading {
+    text-align: center;
+    padding-top: 55px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin-bottom: 86px;
+}
+
+.univer-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 104px;
+}
+
+.univer-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navi-dots {
+    width: 10px;
+    height: 10px;
+    background: #7c7c7c;
+    opacity: 0.3;
+    display: block;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+    margin-bottom: 57px;
+}
+
+.active {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    cursor: pointer;
+    background: #717cff;
+}
+
+.servises {
+    margin-bottom: 126px;
+}
+
+.servis-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 37px;
+    width: 208;
+}
+
+.servis-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 38px;
+    width: 949px;
+    color: #7d7d7d;
+    margin-left: 100px;
+    margin-bottom: 110px;
+}
+
+.servis-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.list-card {
+    background: #fff;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    width: 344px;
+    height: 351px;
+    margin-bottom: 50px;
+}
+
+.ikon {
+    width: 76px;
+    height: 76px;
+    background: #717cff;
+    border-radius: 38px;
+    padding: 23px;
+    margin-top: 29px;
+    margin-left: 31px;
+    margin-bottom: 30px;
+}
+
+.card-heading {
+    font-size: 24px;
+    width: 279px;
+    line-height: 37px;
+    margin-left: 31px;
+    margin-bottom: 9px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #37474fb8;
+    width: 296px;
+    margin-left: 31px;
+    margin-bottom: 30px;
+}
+
+.card-link {
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    text-decoration: none;
+    margin-left: 31px;
+    color: #717CFF;
+}
+
+.card-link img {
+    margin-left: 20px;
+}
+
+.ikon-album {
+    width: 76px;
+    height: 76px;
+    background: #ff5959;
+    border-radius: 38px;
+    padding: 23px;
+    margin-top: 29px;
+    margin-left: 31px;
+    margin-bottom: 30px;   
+}
+
+.ikon-visa {
+    width: 76px;
+    height: 76px;
+    background: #70CE88;
+    border-radius: 38px;
+    padding: 23px;
+    margin-top: 29px;
+    margin-left: 31px;
+    margin-bottom: 30px;  
+}
+
+.ikon-home {
+    width: 76px;
+    height: 76px;
+    background: #5c96ff;
+    border-radius: 38px;
+    padding: 23px;
+    margin-top: 29px;
+    margin-left: 31px;
+    margin-bottom: 30px;  
+}
+
+.ikon-air {
+    width: 76px;
+    height: 76px;
+    background: #fa706c;
+    border-radius: 38px;
+    padding: 23px;
+    margin-top: 29px;
+    margin-left: 31px;
+    margin-bottom: 30px;  
+}
+
+.news {
+    margin-bottom: 102px;
+}
+
+.news-heading {
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 25px;
+}
+
+.news-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7d7d7d;
+    margin-bottom: 119px;
+}
+
+.news-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 146px;
+}
+
+.news-card {
+    width: 344px;
+    height: 406px;
+    background: #fff;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+}
+
+.news-water {
+    margin-bottom: 28px;
+}
+
+.news-date {
+    margin-left: 26px;
+    margin-bottom: 17px;
+}
+
+.news-heading {
+    margin-left: 26px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.news-obama {
+    margin-bottom: 28px;
+}
+
+
+.news-btn {
+    width: 226px;
+    height: 64px;
+    margin-left: 500px;
+    background: #717CFF;
+    border-radius: 11px;
+    display: block;
+    border: none;
+    margin-bottom: 70px;
+}
+
+.news-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
