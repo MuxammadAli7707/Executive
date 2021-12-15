@@ -15,7 +15,7 @@ body {
     margin-right: auto;
 }
 
-.header {
+.header-inner {
     margin-top: 41px;
     display: flex;
     justify-content: space-between;
@@ -88,7 +88,7 @@ body {
 .hero-btn {
     width: 262px;
     height: 64px;
-    background: #717CFF;
+    background: #717cff;
     border-radius: 11px;
     display: block;
     border: none;
@@ -233,7 +233,7 @@ body {
     letter-spacing: 0.439286px;
     text-decoration: none;
     margin-left: 31px;
-    color: #717CFF;
+    color: #717cff;
 }
 
 .card-link img {
@@ -254,7 +254,7 @@ body {
 .ikon-visa {
     width: 76px;
     height: 76px;
-    background: #70CE88;
+    background: #70ce88;
     border-radius: 38px;
     padding: 23px;
     margin-top: 29px;
@@ -285,12 +285,18 @@ body {
 }
 
 .news {
+    background: #fafafa;
     margin-bottom: 102px;
+    padding-top: 104px;
+    padding-bottom: 124px;
 }
 
 .news-heading {
+    font-weight: bold;
+    font-size: 36px !important;
+    line-height: 54px;
     text-align: center;
-    font-size: 37px;
+    letter-spacing: -0.4625px;
     margin-bottom: 25px;
 }
 
@@ -326,7 +332,7 @@ body {
     margin-bottom: 17px;
 }
 
-.news-heading {
+.list-heading {
     margin-left: 26px;
     font-size: 22px;
     line-height: 26px;
@@ -337,6 +343,7 @@ body {
 }
 
 
+
 .news-btn {
     width: 226px;
     height: 64px;
@@ -345,7 +352,6 @@ body {
     border-radius: 11px;
     display: block;
     border: none;
-    margin-bottom: 70px;
 }
 
 .news-btn a {
@@ -353,3 +359,451 @@ body {
     color: #fff;
     font-size: 20px;
 }
+
+.univer-events {
+    padding-bottom: 104px;
+}
+
+.events-heading {
+    text-align: center;
+    font-size: 37px;
+    line-height: 54px;
+    margin-bottom: 25px;
+}
+
+.events-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #7d7d7d;
+    margin-bottom: 100px;
+    /* width: 949px; */
+}
+
+.events-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 81px;
+}
+
+.events-card {
+    background: #fff;
+    width: 540px;
+    height: 308px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+
+}
+
+.date {
+    padding-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-date {
+    background-color: #717cff;
+    width: 76px;
+    height: 76px;
+    margin-right: 19px;
+    margin-bottom: 29px;
+    border-radius: 11px;
+}
+
+.number {
+    font-size: 27px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.month {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474f;
+    width: 352px;
+}
+
+.card-paragh {
+    font-size: 16px;
+    line-height: 28px;
+    color: #37474fb8;
+    width: 482px;
+    margin-left: 45px;
+    margin-bottom: 31px;
+}
+
+.card-site {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-sayt {
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 45px;
+    color: #717cff;
+}
+
+.card-img {
+    margin-left: 20px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.events-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-dots {
+    width: 10px;
+    height: 10px;
+    background: #7c7c7c;
+    opacity: 0.3;
+    display: block;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+    margin-bottom: 57px;
+}
+
+.active {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    cursor: pointer;
+    background: #717cff;
+}
+
+.countries {
+    background-color: #fafafa;
+}
+
+.city {
+    padding-top: 82px;
+    margin-bottom: 115px;
+}
+.city-title {
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    margin-bottom: 25px;
+    color: #373737;
+}
+
+.city-text {
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7d7d7d;
+    margin-bottom: 77px;
+}
+
+.city-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.city-img {
+    margin-bottom: 27px;
+}
+
+.city-heading {
+    font-size: 25px;
+    line-height: 29px;
+    width: 201px;
+    color: #37474f;
+    margin-bottom: 11px;
+}
+
+.city-paragh {
+    font-size: 16px;
+    line-height: 27px;
+    color: #37474fb8;
+    width: 348px;
+    margin-bottom: 83px;
+}
+
+.city-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citys-dots {
+    width: 10px;
+    height: 10px;
+    background: #7c7c7c;
+    opacity: 0.3;
+    display: block;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+    margin-bottom: 57px;
+}
+
+.active {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    cursor: pointer;
+    background: #717cff;
+}
+
+.tim-title {
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    color: #373737;
+    margin-bottom: 25px;
+}
+
+.tim-text {
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7d7d7d;
+    margin-bottom: 181px;
+}
+
+.tim-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.tim-item {
+    background: #fff;
+    width: 503px;
+    height: 332px;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 29px;
+    margin-bottom: 130px;
+}
+
+.harrison {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.harrison-img {
+    margin-left: 34px;
+}
+
+.harrison-box {
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.harrison-heading {
+    font-size: 22px;
+    line-height: 26px;
+    color: #37474f;
+    width: 167px;
+    margin-bottom: 4px;
+}
+
+.harrison-paragh {
+    font-size: 18px;
+    line-height: 21px;
+    color: #37474f;
+    opacity: 0.6;
+    width: 71px;
+}
+
+.harrison-feedback {
+    font-size: 18px;
+    line-height: 31px;
+    margin-left: 34px;
+    width: 435px;
+    color: #37474fb8;
+}
+
+.airana {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.airana-img {
+    margin-left: 34px;
+}
+
+.airana-box {
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.airana-heading {
+    font-size: 22px;
+    line-height: 26px;
+    color: #37474f;
+    width: 167px;
+    margin-bottom: 4px;
+}
+
+.airana-paragh {
+    font-size: 18px;
+    line-height: 21px;
+    color: #37474f;
+    opacity: 0.6;
+    width: 166px;
+}
+
+.airana-feedback {
+    font-size: 18px;
+    line-height: 31px;
+    margin-left: 34px;
+    width: 435px;
+    color: #37474fb8;
+}
+
+.tim-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tims-dots {
+    width: 10px;
+    height: 10px;
+    background: #7c7c7c;
+    opacity: 0.3;
+    display: block;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+    margin-bottom: 57px;
+}
+
+.active {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    cursor: pointer;
+    background: #717cff;
+}
+
+.dreams {
+    height: 220px;
+    background-color: #fafafa;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 92px;
+}
+
+.check-title {
+    font-size: 37px;
+    line-height: 43px;
+    width: 489px;
+    color: #252525;
+}
+
+.check-btn {
+    width: 262px;
+    height: 64px;
+    background: #717cff;
+    border-radius: 11px;
+    display: block;
+    border: none;
+
+}
+
+.check-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 34px;
+}
+
+.check-btn img {
+    color: #37474f;
+}
+
+.end {
+    background-color: #717cff;
+    height: 346px;
+}
+
+.futer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addres {
+    padding-top: 64px;
+}
+
+.logo-link {
+    display: block;
+    margin-bottom: 26px;
+}
+
+.concord {
+    font-size: 18px;
+    line-height: 32px;
+    width: 343px;
+    color: #eee;
+    margin-bottom: 58px;
+}
+
+.trade {
+    font-size: 18px;
+    line-height: 32px;
+    width: 304px;
+    color: #eee;
+}
+
+.navbar-list {
+    margin-top: 70px;
+    list-style: none;
+    width: 161px;
+}
+.navbar-item a {
+    font-size: 18px;
+    line-height: 49px;
+    color: #eee;
+    text-decoration: none;
+}
+
+.end-list {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.end-social {
+    display: flex;    
+}
+
+.end-list {
+    margin-top: 236px;
+}
+
